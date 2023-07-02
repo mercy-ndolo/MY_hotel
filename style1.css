@@ -1,0 +1,167 @@
+body{
+    background-color:#fff;
+}
+form{
+    text-align: center;
+    background-color: darkgray;
+    align-self:first baseline;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"]
+{
+    width:auto;
+    padding:10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+    
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+div.social-media-icons {
+    margin-top: 20px;
+}
+
+div.social-media-icons a {
+    margin-right: 10px;
+}
+
+div.social-media-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+div.social-media-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/* ... previous CSS styles ... */
+
+/* Colorful Social Media Icons */
+div.social-media-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+/* Facebook Icon */
+div.social-media-icons a.facebook img {
+    background-color: #3b5998;
+}
+
+/* Twitter Icon */
+div.social-media-icons a.twitter img {
+    background-color: #00aced;
+}
+
+/* Instagram Icon */
+div.social-media-icons a.instagram img {
+    background-image: linear-gradient(45deg, #fd5e53, #f7b733, #2ab7ca, #4b91e2);
+    background-size: 200%;
+    animation: gradientAnimation 3s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* ... remaining CSS styles ... */
